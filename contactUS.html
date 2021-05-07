@@ -1,0 +1,43 @@
+<!--
+    Sahejbir S Bhatia
+    M03322916
+    CSC 365
+    04/29/21
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sign Up Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="template/template.html">
+        <style>
+        form {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: larger;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="headNavDiv">
+        <header><h1>Contact Us</h1></header><br><br>
+        </div>
+        <div id="mainDiv">
+        <form method="GET">
+            <br> First Name: <input type="text" name="fname" id="fname" onblur="firstNameCheck()"><br><br>
+            Last Name: <input type="text" name="lname" id="lname" onblur="lastNameCheck()"><br><br>
+            Email: <input type="email" name="myEmail" id="myEmail"><br><br>
+            Username: <input type="text" name="uname" id="uname" onblur="uNameCheck()"><br><br>
+            Password: <input type="password" name="psswd" id="psswd" onblur="passwordCheck()"><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <nav>
+            <a class="button" href="main.html">Back to Home Page</a>
+        </nav>  
+        </div>
+        <script src="Q1Script.js"></script>
+    </body>
+</html>
